@@ -14,7 +14,7 @@ class ScheduleScreen extends StatelessWidget {
         itemBuilder: (_, i) {
           // final s = schedules[i];
           return ListTile(
-            title: const Text('Chuyến #$i'),
+            title: const Text('Chuyến #'), //#$i
             subtitle: const Text('... thông tin lịch ...'),
             trailing: Row(
               mainAxisSize: MainAxisSize.min,
